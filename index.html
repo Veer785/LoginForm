@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Sign Up</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="header">Login Account</h2>
+      
+
+        <!-- Login Form -->
+        <div class="login-form active">
+            <div class="email">
+                <label for="email">Email Address</label>
+                <div class="sec-2">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="email" name="email" id="login-email" placeholder="____________________">
+                </div>
+            </div>
+            <br>
+            <div class="password">
+                <label for="password">Password</label>
+                <div class="sec-2">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input class="pas" type="password" name="password" id="login-password" placeholder="____________________">
+                    <ion-icon class="show-hide" name="eye-outline"></ion-icon>
+                </div>
+            </div>
+            <br>
+            <div class="buttons">
+                <button class="login">Login</button>
+                <button class="signup-toggle">Sign Up</button>
+            </div>
+        </div>
+
+        <!-- Sign-Up Form -->
+        <div class="signup-form">
+            <!--<h2 class="header">Sign Up Here</h2>-->
+            <div class="name">
+                <label for="name">Full Name</label>
+                <div class="sec-2">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <input type="text" name="name" id="signup-name" placeholder="____________________">
+                </div>
+            </div>
+            <br>
+            <div class="email">
+                <label for="email">Email Address</label>
+                <div class="sec-2">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="email" name="email" id="signup-email" placeholder="____________________">
+                </div>
+            </div>
+            <br>
+            <div class="password">
+                <label for="password">Password</label>
+                <div class="sec-2">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input class="pas" type="password" name="password" id="signup-password" placeholder="____________________">
+                    <ion-icon class="show-hide" name="eye-outline"></ion-icon>
+                </div>
+            </div>
+            <br>
+            <div class="buttons">
+                <button class="signup">Sign Up</button>
+                <button class="signin-toggle">Sign In</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

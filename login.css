@@ -1,0 +1,87 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    user-select: none;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(218deg 50% 91%);
+    height: 100vh;
+}
+
+.container {
+    background: hsl(213deg 85% 97%);
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0 0 2em hsl(231deg 62% 94%);
+    gap: 1.5em;
+    width: 400px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: hsl(233deg 36% 38%);
+}
+
+.email, .password, .name {
+    background: hsl(0deg 0% 100%);
+    box-shadow: 0 0 2em hsl(231deg 62% 94%);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: hsl(0deg 0% 30%);
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+input::placeholder {
+    color: hsl(0deg 0% 0%);
+    font-size: 0.9em;
+}
+
+ion-icon {
+    color: hsl(0deg 0% 30%);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button {
+    padding: 1em;
+    background: hsl(233deg 36% 38%);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 48%;
+}
+
+.signup-toggle, .signin-toggle {
+    background: hsl(120deg 60% 50%);
+}
+
+.login-form, .signup-form {
+    display: none;
+}
+
+.active {
+    display: block;
+}
